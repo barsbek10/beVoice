@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;800&display=swap');
+
+:root {
+  --yellow: #FFED94;
+  --lightyellow: #F2BF30;
+  --orange: #FFD60A;
+  --gray: #D9D9D9;
+  --fontColor: #F5A623;
+  --black: #2F2F30;
+  --red: #D22D2B;
+  --green: #92C651;
+  --btnColor: #FDD615;
+  --grayInput: #D8D8D8;
+}
+
+.App {
+  padding: 1.5rem 3.5rem 0 3.5rem;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  background-image: url("./../src/images/Background lines.svg");
+}
+
+h1 {
+  font-size: 48px!important;
+  font-weight: 800!important;
+  color: var(--fontColor);
+}
+
+h2 {
+  font-size: 36px!important;
+  font-weight: 800!important;
+  color: var(--black);
+}
+
+h3 {
+  font-size: 28px!important;
+  font-weight: 800!important;
+  color: var(--black);
+}
+
+span {
+  font-size: 24px!important;
+  font-weight: 500!important;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none!important;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  span {
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  span {
+    font-size: 8px;
+  }
+}
+
+.l-wrapper {
+  margin-top: 150px!important;
+}
+
+.active {
+  /*background: var(--orange);*/
+}
